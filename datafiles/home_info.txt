@@ -1,0 +1,5 @@
+This is the Home tab. It is used as the center of the website. From this section of the website, you can
+access all the other sections. The Home tab also allows you to log in. Logging in allows our safe website
+to track your scores on the Games and Learn tabs. No personal information is needed. This section was
+created with the intent of giving easy access to the other sections as well as giving you more information
+about the other sections that make up this website.

@@ -1,0 +1,19 @@
+Name:			Clayton's Website Home
+Date:			7/29/17
+Programmer:		Clayton Cockrell
+			
+Description:	This webpage is the Home section of the website. It displays information about the website
+				and gives the user access to the other three sections of the website (Profile, Lean, and
+				Games). Please enjoy using the website.
+							
+Filenames:		HTML	home.html
+			
+				CSS		css/
+						home_styles.css
+								
+				JS		js/
+						home_script.css
+						
+				Images	img/
+						header.png
+						background.png

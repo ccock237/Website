@@ -1,0 +1,4 @@
+This is the Games tab. It has been a dream of mine to program games. I get a taste of that dream by writing
+my own games and putting them on my website. There are several games to choose from and many more are on the
+way. Some games may require certain hardware functionality, such as a touch screen, that is not available on
+all devices. I hope you enjoy playing all the games.

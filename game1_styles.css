@@ -1,0 +1,107 @@
+body {
+	font-family: Verdana, Sans-serif;
+	margin-top: 2%;
+}
+
+svg {
+	position: absolute;
+	left: 22%;
+    background-color: rgb(0, 200, 300);
+}
+
+p {
+    font-family: Sans-serif;
+    position: absolute;
+    left: 49%;
+    top: 22%;
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 0;
+}
+
+Button {
+	position: absolute;
+	left: 15%;
+	padding: 12px 20px 12px 20px;
+	background-color: rgb(100, 200, 100);
+	color: white;
+	font-size: 15px;
+}
+
+Button#level1 {
+	top: 10%;
+}
+
+Button#level2 {
+	top: 20%;
+}
+
+Button#level3 {
+	top: 30%;
+}
+
+Button#level4 {
+	top: 40%;
+}
+
+Button#level5 {
+	top: 50%;
+}
+
+Button#level6 {
+	top: 60%;
+}
+
+div {
+	background-color: rgb(0,0,0);
+	width: 25%;
+	height: 2%;
+	position: absolute;
+	top: 75%;
+}
+
+div#a {
+	left: 0%;
+}
+
+div#b {
+	background-color: red;
+	position: absolute;
+	left: 25%;
+}
+
+div#c {
+	background-color: green;
+	position: absolute;
+	left: 50%;
+}
+
+div#d {
+	background-color: blue;
+	position: absolute;
+	left: 75%;
+}
+
+div#mouseOver {
+	z-index: -3;
+	top: 19px;
+	left: 9px;
+	background-color: red;
+	width: 75px;
+	height: 42px;
+	border-radius: 50%;
+}
+
+a {
+	z-index: 5;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: rgb(100, 150, 220);
+	border-radius: 50%;
+	padding: 15px 15px 15px 15px;
+}
+
+a:hover {
+	color: black;
+}

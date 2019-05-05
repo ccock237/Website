@@ -1,0 +1,5 @@
+This is the Learn tab. Programming can be easy and fun to do for everyone. I have made it a goal to create a
+section designated to learning about programming. Information on the internet is readily available to nearly
+anyone and I wanted to make it easier for people to access this information. The Learn section will contain
+interactive points and links to various other websites that will provide you with the information to enjoy
+programming.

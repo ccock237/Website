@@ -1,0 +1,50 @@
+body {
+	background-image: url("../img/background.png");
+	font-family: Verdana, Sans-serif;
+	background-size: 400px 200px;
+	background-repeat: repeat;
+	overflow: auto;
+	height: 100vh;
+}
+
+header {
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+}
+
+a {
+	color: black;
+	background-color: none;
+	font-size: 1em;
+}
+
+div#back {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	padding: 2px;
+	text-decoration: none;
+	color: rgb(250, 100, 100);
+	font-size: 1em;
+	background-color: rgba(150, 220, 230, 0.5);
+	border: solid 2px black;
+}
+
+p {
+	display: block;
+	float: left;
+	font-size: 1em;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+img {
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding-right: 5px;
+}

@@ -1,0 +1,46 @@
+body {
+	overflow: hidden;
+	width: 97vw;
+	max-width: 97vw;
+	height: 98vh;
+	max-height: 98vh;
+}
+
+header {
+	font-size: 3em;
+}
+
+p#info {
+	font-size: 1em;
+	width: 90%;
+	margin-left: 5%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+div#pages {
+	width: 220px;
+	height: 220px;
+	margin: auto;
+	margin-top: 5%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border: solid 2px black;
+}
+
+section.page {
+	width: 200px;
+	height: 200px;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+section.page h1 {
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+}
+
+section.page p {
+	margin-left: 5px;
+	font-size: 2vh;
+}

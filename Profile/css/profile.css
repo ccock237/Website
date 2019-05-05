@@ -1,0 +1,79 @@
+body {
+	background-image: url("../img/background.png");
+	font-family: Verdana, Sans-serif;
+	background-size: 400px 200px;
+	background-repeat: repeat;
+	overflow: auto;
+	height: 100vh;
+}
+
+header {
+	font-size: 4em;
+	text-align: center;
+	font-weight: bold;
+	color: rgb(250, 50, 50);
+	text-shadow: 0px 0px 3px black;
+}
+
+p#info {
+	font-size: 1.5em;
+	width: 60%;
+	margin: auto;
+	padding-top: 10px;
+}
+
+a#home {
+	color: red;
+	text-decoration: underline;
+}
+
+a#home:hover {
+	color: rgb(200, 0, 0);
+}
+
+div#sendemail {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	color: white;
+	background-color: rgb(175, 50, 20);
+	padding: 10px;
+	border-radius: 0px 0px 10px 0px;
+}
+
+div#sendemail:hover {
+	background-color: rgb(155, 30, 0);
+}
+
+div#pages {
+	width: 60%;
+	margin-top: 5%;
+	margin-left: 20%;
+}
+
+section.page {
+	display: block;
+	float: left;
+	width: 300px;
+	height: 300px;
+	border: solid 5px black;
+	margin-left: 2%;
+	color: black;
+	background-color: rgb(220, 0, 0);
+}
+
+section.page h1 {
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 2px black;
+}
+
+section.page p {
+	margin-left: 10px;
+	color: white;
+	text-shadow: 0px 0px 2px black;
+}
+
+section.page:hover {
+	background-color: rgb(50, 50, 50);
+}

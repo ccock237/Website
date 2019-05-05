@@ -1,0 +1,278 @@
+/*
+	Name:			Clayton's Website Home
+	Date:			9/28/17
+	Programmer:		Clayton Cockrell
+			
+	Description:	This webpage is the Home section of the website. It displays information about the website
+					and gives the user access to the other three sections of the website (Profile, Lean, and
+					Games). This webpage contains the login. Please enjoy using the website.
+							
+	Filenames:		HTML	home.php
+			
+					CSS		css/
+							home_styles.css
+									
+					JS		js/
+							jquery.js
+									
+					Images	img/
+							header.png
+							background.png
+							info.png
+*/
+
+body {
+	overflow: auto;
+}
+
+header {
+	background-color: rgb(30, 30, 30);
+}
+
+ul#header_tabs li:hover {
+	background-color: rgb(0, 80, 0);
+}
+
+.current_doc {
+	background-color: rgb(0, 80, 0);
+}
+
+/* Welcome Paragraph Styles */
+p#welcome {
+	display: block;
+	float: left;
+	clear: left;
+	margin-left: 20%;
+	width: 60%;
+	background-color: white;
+	border: 5px inset rgb(100, 100, 100);
+	font-size: 1.5vw;
+	padding: 5px 5px 5px 5px;
+}
+
+/* Tabs Unordered List Styles */
+ul#tab_list {
+	list-style-type: none;
+	margin-left: 20%;
+}
+
+/* All List Items in the tab_list Unordered List Styles */
+ul#tab_list li {
+	display: block;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: solid 2px black;
+	margin-top: 8%;
+	margin-left: 18%;
+	width: 15vw;
+	height: 15vw;
+	text-decoration: none;
+}
+
+ul#tab_list li#home {
+	margin-left: 7%;
+	margin-top: 5%;
+	clear: left;
+}
+
+ul#tab_list li#home:hover {
+	background-color: rgb(50, 50, 50);
+	cursor: pointer;
+}
+
+ul#tab_list li#learn {
+	margin-left: 7%;
+	clear: left;
+}
+
+ul#tab_list li#learn:hover {
+	background-color: rgb(50, 200, 50);
+	cursor: pointer;
+}
+
+ul#tab_list li#games {
+	margin-top: 5%;
+}
+
+ul#tab_list li#games:hover {
+	background-color: rgb(50, 50, 200);
+	cursor: pointer;
+}
+
+ul#tab_list li#about:hover {
+	background-color: rgb(200, 50, 50);
+	cursor: pointer;
+}
+
+/* All List Item H1s in the tab_list Unordered List Styles */
+ul#tab_list li h1 {
+	text-align: center;
+	line-height: 10vw;
+	vertical-align: middle;
+	font-size: 3vw;
+	color: black;
+}
+
+/* moreinfo Class Image Styles */
+img.moreInfo {
+	display: inline;
+	float: right;
+	width: 60px;
+	height: 60px;
+}
+
+/* Login Button Styles */
+button#login {
+	position: absolute;
+	top: 50%;
+	float: right;
+	font-size: 150%;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: white;
+	border: outset 5px rgba(50, 200, 100, 0.8);
+}
+
+/* Login Button Active Styles */
+button#login:active {
+	border-style: inset;
+}
+
+/* Account Control Div Styles */
+div#accountcontrol {
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	font-size: 125%;
+	padding: 10px 10px 10px 10px;
+	background-color: rgba(50, 150, 100, 0.9);
+	color: white;
+	border-radius: 0px 0px 0px 20px;
+}
+
+/* label and highlight Class in Account Control Div Styles */
+div#accountcontrol label, input {
+	display: block;
+	float: right;
+	clear: right;
+	width: 100%;
+	text-align: center;
+	margin-top: 2%;
+	font-size: 150%;
+}
+
+/* Account Control Div Styles */
+div#accountcontrol #check {
+	display: block;
+	float: left;
+}
+
+div#accountcontrol #check_label {
+	display: block;
+	float: left;
+	margin-top: 5%;
+	font-size: 90%;
+}
+
+div#accountcontrol #close {
+	margin-top: 5%;
+}
+
+div#accountcontrol:hover {
+	cursor: pointer;
+}
+
+/* Tooltip Span Styles */
+span.tooltip {
+	position: absolute;
+	background-color: white;
+	font-size: 12px;
+	color: black;
+	border: solid 2px black;
+	padding: 2px 2px 2px 2px;
+	display: none;
+}
+
+/* Login Page Section Styles */
+section#loginpage {
+	display: none;
+	width: 800px;
+	height: 800px;
+	margin: auto;
+	border: solid 5px black;
+}
+
+section#loginpage button#loginBack {
+	display: block;
+	float: left;
+	clear: left;
+	font-size: 150%;
+}
+
+/* Login Page Section H1 Styles */
+section#loginpage h1 {
+	text-align: center;
+	font-size: 200%;
+	background-color: rgba(50, 200, 100, 0.3);
+	margin-top: 0%;
+	padding: 10px 0px 10px 0px;
+}
+
+/* Login Page Section H2 Styles */
+section#loginpage h2 {
+	display: block;
+	float: left;
+	clear: left;
+	margin-left: 20%;
+}
+
+/* Login Page Section Form Label and Input Styles */
+section#loginpage form label, input {
+	font-size: 150%;
+	display: block;
+	float: left;
+	clear: left;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10px;
+}
+
+/* Login Page Section Form Label Styles */
+section#loginpage form label {
+	text-align: center;
+}
+
+/* Login Page Section Form Submit Inputs Styles */
+section#loginpage form input.submit {
+	width: auto;
+	text-align: center;
+}
+
+/* Additional Info Section Styles */
+aside {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	font-size: 200%;
+	display: none;
+	z-index: 2;
+	width: 60%;
+	margin-left: -30%;
+	margin-top: -25%;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Additional Info Section H1 Styles */
+aside h1 {
+	text-align: center;
+}
+
+div#message {
+	position: absolute;
+	padding: 10px;
+	left: 5%;
+	bottom: 5%;
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+}
